@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9CDEA"
+    android:orientation="vertical"
+    tools:context=".SpalshActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="483dp"
+        android:src="@drawable/mennn" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Find Your Quotes"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="The application will help you find the best
+                      Quotes to various destinations in just an
+                        app!"
+        android:textColor="#282828"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="137dp"
+        android:id="@+id/ImgStart"
+        android:layout_gravity="center"
+        android:src="@drawable/button" />
+</LinearLayout>
